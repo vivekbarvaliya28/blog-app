@@ -1,0 +1,79 @@
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+.subDiv {
+  display: flex;
+  height: 20rem;
+  width: 16rem;
+  color: whitesmoke;
+  flex-direction: column;
+  margin: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 3px rgb(255, 255, 255);
+  font-family: monospace;
+  text-transform: capitalize;
+
+}
+.subDiv:hover {
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+  transition: all 0.1s ease-out;
+  transform: scale(103%);
+}
+
+.subDiv #post-img {
+  width: 100%;
+  height: 50%;
+}
+
+.post-info{
+    height: 80%;
+    overflow-y: auto;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 45%;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.horizontal-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontal-flex .btn {
+  width: 70px;
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.horizontal-flex .btn a {
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+.horizontal-flex .btn:hover {
+  box-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+.post-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: larger;
+  font-weight: bold;
+}
